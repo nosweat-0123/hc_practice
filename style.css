@@ -1,20 +1,21 @@
 body{
     line-height: 30px;
-    margin-right: 0;
-    
+    margin: 0;
 }
-.header1 {
+.header_content {
     height:55px;
     border-bottom: 3px solid #EDF2F7;
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
+    align-items: center;
 }
+
 .Zenn_logo {
     width: 25% ;
 }
 .Zenn_logo svg {
     width: 90px;
-    padding: 15px 25px 15px 25px;
+    padding: 25px 25px 15px 25px;
     
     
 }
@@ -26,7 +27,7 @@ body{
     padding-bottom: 10px ;
 }
 .login_button{
-    margin: 0 20px 15px 0;
+    margin: 10px 20px 15px 0;
     padding: 5px 15px 0 15px;
     border: none;
     border-radius: 10px;
@@ -44,12 +45,16 @@ body{
     padding-top: 10px;
     
 }
-.header2 {
+.sub_header {
+    background-color: white;
     height: 55px;
     display: flex;
-    
-}
-.header2 img {
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    }
+.sub_header img {
     height: 40px;
     border-radius: 40px;
     margin: 10px 10px 5px 10px;
@@ -78,17 +83,16 @@ body{
     display: block;
 }
 
-.header2_left{
+.sub_header_left{
     padding-left: 15px;
     display: flex;
     width: 35%;
 }
-.header2_left p {
+.sub_header_left p {
     font-weight: 800;
 }
-.header2_right {
+.sub_header_right {
     display: flex;
-    justify-content: flex-end;
     width: 65%;
     color: #65717B;
 
@@ -98,21 +102,21 @@ body{
     
 }
 
-.tytle {
+.title {
     background-color: #EDF2F7;
     height: 275px;
 }
 
-.tytle_name {
+.main_title {
     font-size: 22px;
     width: 400px;
 }
-.tytle p {
+.title p {
     font-size: 14px;
     text-align: center;
     color: #65717B;
 }
-.tytle_text {
+.title_text {
     width: 350px;
     margin:  auto;
 }
@@ -144,7 +148,6 @@ body{
 }
 .zenn_icon {
     display: flex;
-    margin-right: 10px;
     border: 1px solid #EDF2F7;
 }
 .idea_icon {
@@ -158,6 +161,7 @@ body{
 .zenn_and_idea_icon {
     display: flex;
     padding-top: 30px;
+    gap: 20px;
 }
 
 text h2 {
@@ -497,14 +501,14 @@ footer {
     html {        
         background-color:#EDF2F7;
     }
-    body {
+    .tytle,.main_content,.Discussion,.Read_next {
         margin: 0 20px 0 30px;
     }
-    header {
+    .header_content,.sub_header {
         background-color: white;
         margin: 0;
     }
-    .header2 {
+    .sub_header {
         position: sticky;
         top: 10px;
         z-index: 10;
@@ -512,10 +516,12 @@ footer {
     .login_button {
         height: 35px;
     }
-    .tytle_name {
+    .main_title {
         font-size: 30px;
-        width: 480px;
-        margin: 20px auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        text-align: center;
+        white-space: nowrap;
     }
     .content {
         background-color: white;
@@ -551,14 +557,26 @@ footer {
 }
 
 @media screen and (min-width: 1000px){
-    body {
-        margin: 0 40px 0 50px;
+    
+    .title,.main_content,.Read_next {
+        margin: 0 50px 0 50px;
+    }
+    .Discussion {
+        margin-left: 50px;
+        margin-right: 50px;
     }
     
 }
 
 @media screen and (min-width: 1200px){
-    .header2 {
+    header {
+        background-color: white;
+    }
+    .header_content {
+        width: 1100px;
+        margin: 0 auto;
+    }
+    .sub_header {
         display: none;
     }
     .Read_next {
@@ -608,31 +626,31 @@ footer {
         background-color: white;
         margin-left: 30px;
         margin-top: 30px;
-        padding-left: 20px;
         border-radius: 20px;
-    }
-    .hidden_scroll_mokuji {
-        line-height: 15px;
+        line-height: 25px;
         
     }
     
     .hidden_mokuji {
         font-weight:600;
     }
+    .mokuji2,.mokuji3 {
+        font-weight: 100;
+    }
     .hidden_empty_grid {
         display: block;
     }
     .Discussion {
         width: 800px;
+        margin-left: 0;
     }
     .hidden_discussion_grid {
         display: grid;
         grid-template-columns: 800px 300px;
         grid-template-rows: 500px;
-        width: 1100px;
-        margin: 0 auto;
+        justify-content: center;
     }
     .company_logo {
-        height: 600px;
+        height: 100px;
     }
 }
