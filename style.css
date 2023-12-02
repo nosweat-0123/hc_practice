@@ -1,0 +1,656 @@
+body{
+    line-height: 30px;
+    margin: 0;
+}
+.header_content {
+    height:55px;
+    border-bottom: 3px solid #EDF2F7;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Zenn_logo {
+    width: 25% ;
+}
+.Zenn_logo svg {
+    width: 90px;
+    padding: 25px 25px 15px 25px;
+    
+    
+}
+.search_logo {
+    display: block;
+    width: 22px;
+    color: #65717B;
+    margin: 0 20px 0 auto;
+    padding-bottom: 10px ;
+}
+.login_button{
+    margin: 10px 20px 15px 0;
+    padding: 5px 15px 0 15px;
+    border: none;
+    border-radius: 10px;
+    height: 30px;
+    font-weight: 600;
+    font-size: 13px;
+    color: white;
+    background-color: #3EA8FF;
+}
+
+
+.header_list {
+    display: flex;
+    width: 75% ;
+    padding-top: 10px;
+    
+}
+.sub_header {
+    background-color: white;
+    height: 55px;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    }
+.sub_header img {
+    height: 40px;
+    border-radius: 40px;
+    margin: 10px 10px 5px 10px;
+}
+.text_mokuji {
+    margin: 15px 5px 20px auto;
+}
+.mokuji_button{
+    width: 14px;
+    margin-top: 5px;
+    margin-right: 15px;
+    margin-bottom: 5px;
+    display: block;
+}
+.like_button {
+    width: 40px;
+    height: 40px;
+    margin-top: 10px;
+    margin-right: 20px;
+    background-color: #EDF2F7;
+    border-radius: 20px;
+}
+.like_button svg {
+    width: 20px;
+    margin: 10px 10px 30px 10px;
+    display: block;
+}
+
+.sub_header_left{
+    padding-left: 15px;
+    display: flex;
+    width: 35%;
+}
+.sub_header_left p {
+    font-weight: 800;
+}
+.sub_header_right {
+    display: flex;
+    width: 65%;
+    color: #65717B;
+
+}
+.content{
+    color: #2E2E2E;
+    
+}
+
+.title {
+    background-color: #EDF2F7;
+    height: 275px;
+}
+
+.main_title {
+    font-size: 22px;
+    width: 400px;
+}
+.title p {
+    font-size: 14px;
+    text-align: center;
+    color: #65717B;
+}
+.title_text {
+    width: 350px;
+    margin:  auto;
+}
+.pencil {
+    display: block;
+    height: 70px;
+    width: auto;
+    margin: 0 auto;
+    padding-top: 55px;
+}
+.announce {
+    height: 180px;
+    
+}
+.zenn_icon img{
+    height: 25px;
+}
+.zenn_icon p, .idea_icon p{
+    font-size: 12px;
+    margin-top: 0;
+    padding-right: 10px;
+}
+.idea_icon svg {
+    height: 25px;
+}
+.zenn_icon img, .idea_icon svg {
+    margin-right: 10px;
+    padding-top: 3px;
+}
+.zenn_icon {
+    display: flex;
+    border: 1px solid #EDF2F7;
+}
+.idea_icon {
+    display: flex;
+    border: 1px solid #EDF2F7;
+}
+.zenn_icon,.idea_icon {
+    height: 30px;
+    border-radius: 15px;
+}
+.zenn_and_idea_icon {
+    display: flex;
+    padding-top: 30px;
+    gap: 20px;
+}
+
+text h2 {
+    padding-bottom: 10px;
+    border-bottom: 3px solid #EDF2F7;
+}
+.introduction_content {
+    margin-bottom: 55px;
+}
+.introduction_content {
+    font-size: 18px;
+}
+.short_cut_recommend {
+    font-size: 13px;
+    margin-right: 10px;
+    height: 20px;
+    padding: 8px 0 13px 10px;
+    border: 1px solid #EDF2F7;
+    border-radius: 10px;
+    box-shadow: 0 3px #EDF2F7;
+}
+.text_1 img {
+    width: 440px;
+    margin-bottom: 5px;
+}
+.web_editor {
+    text-align: center;
+}
+.text_1 {
+    margin-bottom: 50px;
+}
+.local_text_editor {
+    text-align: center;
+}
+.local_editor {
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+.editor_guide{
+    margin-top: 8px;
+    margin-bottom: 5px;
+}
+.local_editor, .editor_guide {
+    width: 460px;
+}
+.introduce_zenn_cli {
+    border-bottom: 3px solid #EDF2F7;
+}
+
+.link1, .link2,.link3 {
+    margin: 30px 0;
+}
+.link1 b, .link2 b, .link3 b{
+    color: dodgerblue;
+}
+.text_3 {
+    margin-top: 40px;
+}
+text a {
+    text-decoration: none;
+}
+
+.edit_by_github svg {
+    width: 20px;
+    padding-left: 10px;
+}
+.edit_by_github {
+    width: 200px;
+    height: 35px;
+    text-align: center;
+    display: flex;
+    border: 1px solid #EDF2F7;
+    border-radius: 8px;
+    box-shadow: 0 3px #EDF2F7;
+}
+.edit_by_github p {
+    margin-top: 7px;
+    margin-left: 5px;
+}
+.reaction {
+    display: flex;
+    padding-bottom: 15px;
+    margin-top: 50px;
+    border-bottom: 3px solid #EDF2F7;
+    
+}
+.Like_Button2 {
+    width: 50px;
+    height: 50px;
+    background-color: #EDF2F7;
+    border-radius: 25px;
+    text-align: center;
+    color: #8F9FAA;
+}
+.like_button2 {
+    width: 24px;
+    margin-top: 14px;
+}
+.like_count {
+    padding-left: 10px;
+    font-size: 13px;
+    color: #8F9FAA;
+}
+.Mokuji_Button2 {
+    width: 255px;
+    padding-top: 15px;
+    text-align: right;
+}
+.mokuji_button2 {
+    width: 20px;
+    padding-right: 10px;
+    color: #8F9FAA;
+}
+.twitter {
+    display: flex;
+    width: 115px;
+    border: 1px solid #8F9FAA;
+    height: 44px;
+    border-radius: 25px;
+}
+.twitter p {
+    height: 15px;
+    color: #8F9FAA;
+    margin-top: 8px;
+    
+}
+.twitter_logo {
+    width: 20px;
+    padding: 10px;
+    color: #8F9FAA;
+}
+.content_reaction_right {
+    display: flex;
+    width: 400px;
+    margin-left: auto;
+}
+.acount_introduction {
+    display: flex;
+    height: 195px;
+    padding-bottom: 20px;
+    border-bottom: 3px solid #EDF2F7;
+}
+.acount_explanation {
+    margin-top: 10px;
+}
+.name_zenn_official {
+    font-weight: 800;
+}
+.text_zenn_introduction {
+    font-size: 15px;
+    color: #8F9FAA;
+    margin-bottom: 0;
+}
+.follow_and_acount_links {
+    display: flex;
+    
+}
+.zenn_logo2 {
+    height: 60px;
+    width: 60px;
+    border-radius: 60px;
+    margin: 40px 15px 0 15px;
+}
+
+.github_logo2,.twitter_logo2 {
+    width: 22px;
+    color: #65717B;
+}
+.github_logo2 {
+    margin: 0 8px 0 16px;
+}
+.twitter_logo2 {
+    margin: 0 0 0 8px;
+}
+.follow_and_acount_links p {
+    width: 60px;
+    font-size: 12px;
+    border: 1px solid #8F9FAA;
+    border-radius: 20px;
+    padding: 0 10px 0 20px;
+    color: #65717B
+}
+.Discussion {
+    text-align: center;
+    border-bottom: 3px solid #EDF2F7;
+    padding-bottom: 30px;
+    
+}
+.discussion_tytle {
+    margin-top: 30px;
+    font-size: 25px;
+    font-weight: 800;
+}
+.discussion_image {
+    width: 320px;
+    padding-bottom: 20px;
+}
+.discussion_text {
+    color: #8F9FAA;
+    border-top: 2px solid #EDF2F7;
+    padding-top: 10px;
+}
+.login_button2 {
+    display: inline;
+    padding: 10px 20px 10px 20px;
+    border: none;
+    border-radius: 6px;
+    height: 35px;
+    width: 60px;
+    font-weight: 600;
+    font-size: 15px;
+    color: white;
+    background-color: #3EA8FF;
+    box-shadow: 0 3px #EDF2F7;
+}
+footer {
+    padding-left: 30px;
+    padding-right: 20px;
+}
+.footer_top {
+    height: 30px;
+    padding: 50px 0 45px 0;
+}
+.footer_top_text {
+    font-size: 13px;
+    color: #8F9FAA;
+    margin-top: 0;
+}
+.zenn_logo3 {
+    width: 90px;
+}
+.users_select {
+    line-height: 20px;
+    font-size: 15px;
+    display: grid;
+    width: 100%;
+    margin-top: 10px;
+    padding-bottom: 30px;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: 160px 160px;
+    gap: 0 10px;
+    border-bottom: 3px solid #EDF2F7;
+}
+.group_1, .group_2, .group_3, .group_4 {
+    font-weight: 800;
+}
+
+.announce {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.content h2 {
+    padding-bottom: 5px;
+    border-bottom: 2px solid #EDF2F7;
+}
+.content_main_text {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.Read_next {
+    padding: 30px 20px 30px 10px;
+    background-color: #EDF2F7;
+}
+.read_next_tytle h2 {
+    margin: 20px;
+}
+.read_next_tytle,.read_next_text {
+    font-weight: 800;
+}
+
+.text_icon {
+    background-color: white;
+    display: block;
+    width: 40px;
+    margin: 20px 20px ;
+    padding: 20px;
+    border-radius: 15px;
+
+}
+.read_next_list {
+    display: flex;
+    line-height:25px;
+}
+.user_image {
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    margin-right:5px;
+}
+.user_name {
+    font-size: 13px;
+    margin-top: 2px;
+}
+.date {
+    font-size: 11px;
+    margin-top: 2px;
+    margin-right:5px;
+}
+.like_button3 {
+    display: block;
+    width: 15px;
+    padding-bottom: 15px;
+    margin-right: 5px;
+}
+.like_count3 {
+    margin-top: 1px;
+    font-size: 11px;
+}
+.user_information {
+    display: flex;
+}
+.date, .like_button3, .like_count3 {
+    color: #8F9FAA;
+}
+
+.company_logo {
+    height: 50px;
+}
+.classmethod {
+    display: block;
+    margin: 25px auto;
+    width: 110px;
+}
+
+.hidden_acount_introduction {
+    display: none;
+}
+.hidden_scroll_mokuji {
+    display: none;
+}
+.hidden_empty_grid {
+    display: none;
+}
+
+@media screen and (min-width: 750px) { 
+    html {        
+        background-color:#EDF2F7;
+    }
+    .tytle,.main_content,.Discussion,.Read_next {
+        margin: 0 20px 0 30px;
+    }
+    .header_content,.sub_header {
+        background-color: white;
+        margin: 0;
+    }
+    .sub_header {
+        position: sticky;
+        top: 10px;
+        z-index: 10;
+    }
+    .login_button {
+        height: 35px;
+    }
+    .main_title {
+        font-size: 30px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        text-align: center;
+        white-space: nowrap;
+    }
+    .content {
+        background-color: white;
+        border-radius: 20px;
+    }
+    .zenn_logo2 {
+        width: 80px;
+        height: 80px;
+        margin-left: 30px;
+    }
+    .text_icon {
+        width: 50px;
+    }
+    .Discussion {
+        padding-top: 15px;
+        margin-top: 50px;
+        background-color: white;
+        border-radius: 20px;
+    }
+    .read_next_lists{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 150px 150px 150px 150px;
+    }
+    footer {
+        background-color: white;
+    }
+    .users_select {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 150px;
+
+    }
+}
+
+@media screen and (min-width: 1000px){
+    
+    .title,.main_content,.Read_next {
+        margin: 0 50px 0 50px;
+    }
+    .Discussion {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    
+}
+
+@media screen and (min-width: 1200px){
+    header {
+        background-color: white;
+    }
+    .header_content {
+        width: 1100px;
+        margin: 0 auto;
+    }
+    .sub_header {
+        display: none;
+    }
+    .Read_next {
+        width: 1200px;
+        margin: 0 auto;
+    }
+    .footer_content {
+        display: grid;
+        grid-template-columns: 1fr 4fr ;
+        grid-template-rows: 200px;
+    }
+    .main_content {
+        display: grid;
+        grid-template-columns: 800px 300px ;
+        grid-template-rows: 180px 180px 2020px;
+        justify-content: center;
+    }
+    .content {
+        grid-row: 1 / 4 ;
+    }
+    .hidden_acount_introduction {
+        display: flex;
+        background-color: white;
+        margin-left: 30px;
+        border-radius: 20px;
+        
+    }
+    #zl2 {
+        width: 60px;
+        height: 60px;
+        margin: 20px 10px 0 20px;
+    }
+    #nzo {
+        height: 20px;
+        margin-top: 5px;
+        margin-bottom: 0;
+    }
+   #tzi {
+    width: 250px;
+    margin-top: 0;
+    position: relative;
+    top: 5px;
+    right: 80px;
+   }
+    .hidden_scroll_mokuji {
+        display: block;
+        background-color: white;
+        margin-left: 30px;
+        margin-top: 30px;
+        border-radius: 20px;
+        line-height: 25px;
+        
+    }
+    
+    .hidden_mokuji {
+        font-weight:600;
+    }
+    .mokuji2,.mokuji3 {
+        font-weight: 100;
+    }
+    .hidden_empty_grid {
+        display: block;
+    }
+    .Discussion {
+        width: 800px;
+        margin-left: 0;
+    }
+    .hidden_discussion_grid {
+        display: grid;
+        grid-template-columns: 800px 300px;
+        grid-template-rows: 500px;
+        justify-content: center;
+    }
+    .company_logo {
+        height: 100px;
+    }
+}
